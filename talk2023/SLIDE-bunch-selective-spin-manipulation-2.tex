@@ -1,0 +1,62 @@
+\begin{frame}
+ \frametitle{Bunch-selective spin manipulation $\rightarrow$ co-magnetometry II}
+\framesubtitle{\textbf{World-first (September 2020 JEDI, with $d$ at \SI{970}{MeV/c}) }}
+
+\vspace{-0.2cm}
+See recent JEDI preprints for more details: 
+\begin{footnotesize}
+\begin{itemize}
+	\item \textit{Pilot bunch and co-magnetometry of polarized particles stored in a ring}\,\textcolor{PineGreen}{\cite{Slim:2023lpd}}
+	\item \textit{Spin decoherence and off-resonance behavior of radiofrequency-driven spin rotations in storage rings}\,\textcolor{PineGreen}{\cite{Nikolaev:2023srx}}
+\end{itemize}
+\end{footnotesize}
+
+\vspace{-0.3cm}
+\begin{columns}[T]
+\column{0.42\textwidth}
+\only<1>{
+\begin{block}{\small Exponential model\,\textcolor{PineGreen}{\small \cite{Slim:2023lpd}}:}
+\begin{equation}
+\begin{split}
+A(t) = \, & a (t-t_0) + b \, + \\
+       & c  \exp\left(- \Gamma (t-t_0)\right) \\
+       & \cos\left[2\pi f_\text{SF} (t-t_0)\right]
+\nonumber
+\end{split}
+\end{equation}
+\end{block}}
+
+\only<2>{
+\begin{block}{\small Synchrotron-oscillations model\,\textcolor{PineGreen}{\small \cite{Nikolaev:2023srx}}:}
+\begin{small}
+\begin{equation}
+\begin{split}
+A_\text{sy}(t) = & a (t-t_0) + b
++ \\ & 
+\frac{c}{\sqrt{1+ \left[ 2\pi Q_\text{sy} f_\text{SF} (t-t_0) \right] ^2}} 
+\times \\
+&\cos \big[ 2\pi f_\text{SF} (t-t_0)  - \\
+& \arctan(2\pi Q_\text{sy} f_\text{SF} (t-t_0) ) \big]
+\label{SO-fit}
+\nonumber
+\end{split}
+\end{equation}
+\end{small}
+\end{block}}
+
+\column{0.51\textwidth}
+\begin{center}
+	\vspace{-0.3cm}
+	\includegraphics<1>[height = 0.43 \textheight]{fit_exp_19082023.pdf} 
+	\includegraphics<2>[height = 0.43 \textheight]{2sg1_19082023.pdf} 
+\end{center}
+\end{columns}
+
+\vspace{-0.1cm}  
+\begin{alertblock}{Works close to perfection}
+	\begin{itemize}
+		\item allows spin manipulations on \textit{individual} stored bunches \textbf{on flattop}
+		\item application of principle on the horizon for EIC and NICA
+	\end{itemize}
+\end{alertblock}
+ \end{frame}
