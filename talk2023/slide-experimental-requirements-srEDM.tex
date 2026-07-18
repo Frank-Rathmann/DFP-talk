@@ -1,0 +1,36 @@
+\begin{frame}
+\frametitle{Experimental requirements for storage ring EDM searches}
+\framesubtitle{}
+
+\vspace{-0.2cm}
+\begin{block}{High precision, primarily electric storage ring}
+ \begin{itemize}
+  \item Crucial role of alignment, stability, field homogeneity, and shielding from perturbing magnetic fields.
+  \item High beam intensity: \textcolor{blue}{$N = \num{4e10}$ particles per fill}.
+  \item High polarization of stored polarized hadrons: \textcolor{blue}{$P=0.8$}.
+  \item Large electric fields: \textcolor{blue}{$E = \SI{10}{MV/m}$}.
+  \item Long spin coherence time: \textcolor{blue}{$\tau_\text{SCT} = \SI{1000}{s}$}.
+  \item Efficient polarimetry with 
+  \begin{itemize}
+   \item large analyzing power:  \textcolor{blue}{$A_y \simeq 0.6$},
+   \item  and high efficiency detection \textcolor{blue}{$f \simeq 0.005$}.
+  \end{itemize}
+ \end{itemize}
+\end{block}
+
+\vspace{-0.2cm}
+\begin{alertblock}{In terms of numbers given above:}
+\begin{itemize}
+ \item This implies:
+ \vspace{-0.3cm}
+    \begin{equation}
+   \textcolor{blue}{      
+   \sigma_\text{stat} = \frac{1}{\sqrt{N \, f} \, \tau_\text{SCT} \, P \, A_y \, E} 
+   \quad \Rightarrow \quad \boxed{\sigma_\text{stat}(\SI{1}{yr}) = \SI{e-29}{e.cm}}\,.} 
+   \label{eq:statistical-error-EDM-experiment}
+    \end{equation}
+ \item \textbf{Experimentalist's goal is to provide $\sigma_\text{syst}$ to the same level.}
+ \end{itemize}
+\end{alertblock}
+
+\end{frame}
