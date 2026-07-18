@@ -1,0 +1,382 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+% \documentclass[10pt,show notes,xcolor=dvipsnames]{beamer} % notes plus presentation
+\documentclass[10pt,compress,xcolor=dvipsnames]{beamer} % presentation only
+%\documentclass[10pt,compress,handout,xcolor=dvipsnames]{beamer} % presentation only, but no clicks from piece to piece
+
+%This is for ME only
+% \documentclass[10pt,handout,a4,landscape,xcolor=dvipsnames]{beamer}
+%\setbeameroption{show notes}
+% without the pgfpages, this alone produces handouts with good space around for notes
+
+%This is for students handout only
+%\documentclass[10pt,handout,a4,landscape,xcolor=dvipsnames]{beamer}
+% without the pgfpages, this alone produces handouts with good space around for notes
+
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{resize to}[a4paper,border shrink=5mm,landscape]
+% this works and produces a full page with almost no borders
+%\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm,landscape]
+% this works also an produces two slides on one page
+
+\setbeamersize{text margin left=15pt}
+%\geometry{paperwidth=140mm,paperheight=105mm}
+%\usepackage[size=a4]{beamerposter}
+\mode<presentation> {
+%\mode<handout> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+\usepackage{pgf}
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+\usetheme{Boadilla}
+%%% \usetheme{boxes}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%usecolortheme{rose}
+%\usecolortheme{seagull}
+%        \usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+%\usepackage{sfmath,sansmathaccent}
+%\pdfmapfile{+sansmathaccent.map}
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{siunitx}
+\DeclareSIUnit\week{wk}
+\usepackage{nuc}
+\usepackage[super]{nth}
+\usepackage[export]{adjustbox}
+\usepackage{braket}
+\usepackage{xr}
+% \usepackage{MnSymbol}
+\usepackage{xcolor}
+\usepackage{eurosym}
+\usepackage{wasysym}
+\usepackage{subfigure}
+\usepackage[square,numbers]{natbib}
+\makeatletter
+\g@addto@macro \normalsize {%
+ \setlength\abovedisplayskip{4pt plus 2pt minus 2pt}%
+ \setlength\belowdisplayskip{4pt plus 2pt minus 2pt}%
+}
+\addtobeamertemplate{footnote}{}{\vspace{2ex}}
+
+\usepackage[referable]{threeparttablex}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}% redefines the caption setup of the figures environment in the beamer class.
+\usepackage{mathtools}
+\usepackage{tcolorbox}
+%\usepackage{physics}
+\usepackage{layout}
+% \usepackage[hang]{footmisc}
+% \setlength\footnotemargin{10pt}
+
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usetikzlibrary{shapes.multipart}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shadows}
+\usetikzlibrary{automata}
+\usetikzlibrary{positioning}
+\usepgflibrary{decorations.shapes}
+\def\Put(#1,#2)#3{\leavevmode\makebox(0,0){\put(#1,#2){#3}}}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{math} %needed tikz library
+\usetikzlibrary{calc}
+\usepgflibrary{arrows}
+\tikzset{
+    partial ellipse/.style args={#1:#2:#3}{
+        insert path={+ (#1:#3) arc (#1:#2:#3)}
+    }
+}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+  \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+\newcommand*{\Matrix}[1]{\mathbf{#1}}
+\newcommand{\dd}{\text{d}}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\useoutertheme{infolines}
+\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{navigation symbols}{} 
+\setbeamertemplate{footline}[text line]{%
+  \parbox{\linewidth}{\vspace*{-8pt}
+%  \insertshorttitle\hfill\insertshortauthor\hfill\insertframenumber/ \inserttotalframenumber}} 
+\insertshorttitle\hfill\insertshortauthor\hfill\insertframenumber/40}}
+\setbeamerfont{footline}{series=\normalfont}
+  
+%\addtobeamertemplate{title page}{\centering \includegraphics[scale=.3]{pbc-logo-v7.png} }{}
+% \vspace{0.5cm} 
+\title[Search for EDMs and Axions/ALPs using storage rings]{Search for Axions/ALPs and Electric Dipole Moments of charged particles using storage rings} 
+% The short title appears at the bottom of every slide, the full title is only on the title page
+%
+
+\vspace{-0.3cm}
+\author[Frank Rathmann (f.rathmann@fz-juelich.de)]{Frank Rathmann
+%\footnote{\textcolor{blue}{Now at: Brookhaven National Laboratory}
+\newline Institut für Kernphysik, Forschungszentrum Jülich
+\newline (on behalf of the \raisebox{-0.2\height}{\includegraphics[height=0.4cm]{JEDI-logo.png}} collaboration)
+\vspace{0.2cm}
+} 
+% Your name
+%      \includegraphics[width=0.1\textwidth]{JEDI-logo.png}
+
+%\titlegraphic{
+%	\includegraphics[height=0.8cm]{JEDI-logo.png}
+%	\hspace*{2.0cm}
+%	\includegraphics[height=0.8cm]{FZJ-image.jpg}}  
+
+%\institute[IKP 2]
+ % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+%{  
+%{\normalsize Forschungszentrum J\"ulich} \\ % Your institution for the title page
+% \medskip
+% \textit{f.rathmann@fz-juelich.de} % Your email address
+%}
+\vspace{-1cm}
+\date{%\raisebox{-0.4\height}{\includegraphics[scale=.35]{pbc-logo-v7.png}} \hspace{0.5cm} 
+\textbf{\nth{25} International Symposium on Spin Physics} \newline Sept 24 --
+29, 2023
+\newline\textcolor{blue}{\url{https://spin2023.phy.duke.edu/}}
+} % Date, can be changed to a custom date
+
+\setlength{\abovedisplayskip}{3pt}
+\setlength{\belowdisplayskip}{3pt}
+%----------------------------------------------------------------------------------------
+\begin{document}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\vspace{-0.3cm}
+\frametitle{Contents} % Table of contents slide, comment this block out to remove it
+\tableofcontents 
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\section{Motivation \& Status of EDM and Axion/ALP searches}
+\include{slide-baryon-asymmetry}
+\include{slide-electric-dipole-moments}
+\include{slide-naive-scale-nucleon-EDM}
+\include{slide-motivation}
+\include{slide-status-EDM-search}
+\include{slide-status-axion-search}
+
+\section{Measurement principles \& experimental techniques}
+\include{slide-EDM-measurement-in-storage-ring}
+\include{slide-spin-precession-MDM-EDM}
+\include{slide-frozen-spin}
+\include{slide-EDM-in-magnetic-ring}
+
+\section{Achievements}
+\subsection{Spin-tune determination}
+\include{slide-principle-SCT-measurement}
+\include{slide-detector-EDDA}
+\subsection{Spin-coherence time improvement}
+\include{slide-SCT-pictures-arrows}
+\include{slide-SCT-optimization}
+\include{slide-spin-tune-determination-I}
+\include{slide-spin-tune-determination-II}
+\include{slide-spin-tune-walk}
+\subsection{Phase locking}
+\include{slide-phase-locking}
+
+\subsection{RF Wien filter method}
+\include{slide-EDM-effect-on-stable-axis}
+\include{slide-model-pol-buildup-EDM-COSY}
+\include{slide-design-RF-Wien-filter}
+\include{slide-WF-along-beam}
+\include{SLIDE-bunch-selective-spin-manipulation}
+\include{SLIDE-fast-RF-switches}
+\include{SLIDE-fast-RF-switches-2}
+\include{SLIDE-bunch-selective-spin-manipulation-2}
+
+\section{Recent results}
+\subsection{EDM measurement}
+
+\include{slide-strength-EDM-resonance}
+\include{slide-pilot-bunch}
+\include{slide-pxy-phase-precursor-measurement}
+\include{slide-EDM-precursor-preliminary}
+
+\subsection{Axion measurement}
+\include{slide-axion-like-particle-in-storage-ring}
+\include{slide-principle-axion-measurement}
+\include{slide-principle-axion-measurement-2}
+\include{slide-bound-on-oscill-dEDM}
+\include{slide-bound-ALP-EDM-coupling}
+\include{slide-ALP-gluon-ALP-nucleon-coupling}
+
+\section{Staged approach toward dedicated EDM ring }
+\include{slide-staged-approach}
+\include{slide-PTR}
+\include{slide-summary}
+\include{slide-closing}
+
+\section*{References}
+\include{slide-references}
+
+% spare slides
+
+\include{slide-to-spare-slides}
+
+\include{slide-experimental-requirements-srEDM}
+\include{slide-new-C-polarimeter}
+\include{slide-dC-polarimetry-II}
+\include{slide-PTR}
+
+
+
+%-----------------------------------------------------------------------
+\end{document}
+%-----------------------------------------------------------------------
+
+%\include{slide-EDM-wordlwide-effort}
+%\include{slide-status-EDM-searches-table}
+%\include{slide-frozen-spin-p-d-3he}
+
+\include{slide-progress-tow-EDM-expts}
+\include{slide-COSY-landscape}
+
+\include{slide-spin-tune-tutorial}
+\include{slide-principle-polarization-measurement}
+
+\include{slide-principle-polarization-measurement}
+
+\include{slide-detector-EDDA}
+\include{slide-SCT-pictures-arrows}
+\include{slide-SCT-optimization}
+
+\include{slide-spin-tune-determination-I}
+\include{slide-spin-tune-determination-II}
+\include{slide-spin-tune-walk}
+
+\include{slide-phase-locking}
+
+\include{slide-first-dEDM-motivation}
+\include{slide-dC-polarimetry-I}
+\include{slide-new-C-polarimeter}
+
+\include{slide-beam-based-alignment-I}
+\include{slide-beam-based-alignment-II}
+\include{slide-beam-based-alignment-III}
+\include{slide-beam-based-alignment-IV}
+
+\include{slide-more-technical-challenges}
+\include{slide-EB-deflector-development-Aachen}
+\include{slide-EB-deflector-development-Aachen-results}
+\include{slide-deflector-real-size}
+\include{slide-deflector-real-size-test}
+
+\include{slide-BPM-conventional-vs-rogowski}
+\include{slide-rogowski-assembly-stages}
+\include{slide-rogowski-position-at-WF-entrance}
+
+\include{slide-proof-of-principle-expt-COSY}
+\include{slide-RF-Wien-filter-method}
+
+\include{slide-EDM-expectation-COSY-ideal}
+\include{slide-EDM-expectation-COSY-ideal-II}
+\include{slide-Function-describing-surface}
+\include{slide-preliminary-results-precursor-I}
+\include{slide-JEDI-collaboration}
+%\include{slide-Lichtenberg}
+\include{slide-magic-rings-2}
+\include{slide-SCT-tutorial}
+\include{slice-machine-imperfections-study}
+\include{slide-Driving-circuit}
+\include{slide-RF-WF-fotos}
+\include{slide-prec-I-and-prec-II-improvements-2}
+\include{slide-RF-WF-frequencies}
+\include{PTR-lattice-design}
+\include{slide-design-study}
+\include{slide-presto-timeline}
+\include{slide-plan-B}
+\include{Beam-transfer-injection-system}
+
+\include{Electrostatic-deflector}
+\include{Magnetic-bends}
+\include{Multipole-elements}
+\include{slide-vacuum-system}
+\include{Stochastic-cooling}
+\include{slide-RF-cavity}
+\include{Spin-manipulation-tools}
+\include{polarimeter}
+\include{beam-diagnostics}
+\include{slide-RF-WF-internal-structure}
+\include{slide-RF-WF-EM-simulations}
+\include{slide-Lorentz-force-compensation}
+\include{slide-first-EDM-like-signals}
+
