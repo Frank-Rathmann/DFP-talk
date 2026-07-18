@@ -1,0 +1,358 @@
+\begin{thebibliography}{28}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Bennett et~al.}(2003)}]{Bennett:2003bz}
+\bibinfo{author}{\bibfnamefont{C.~L.} \bibnamefont{Bennett}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{WMAP}), ``{First year Wilkinson
+  Microwave Anisotropy Probe (WMAP) observations: Preliminary maps and basic
+  results},'' \bibinfo{journal}{Astrophys. J. Suppl.}
+  \textbf{\bibinfo{volume}{148}}, \bibinfo{pages}{1} (\bibinfo{year}{2003}),
+  \eprint{astro-ph/0302207}.
+
+\bibitem[{\citenamefont{Barger et~al.}(2003)\citenamefont{Barger, Kneller, Lee,
+  Marfatia, and Steigman}}]{Barger:2003zg}
+\bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Barger}},
+  \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Kneller}},
+  \bibinfo{author}{\bibfnamefont{H.-S.} \bibnamefont{Lee}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Marfatia}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Steigman}}, ``{Effective
+  number of neutrinos and baryon asymmetry from BBN and WMAP},''
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B566}},
+  \bibinfo{pages}{8} (\bibinfo{year}{2003}), \eprint{hep-ph/0305075}.
+
+\bibitem[{\citenamefont{Bernreuther}(2002)}]{Bernreuther:2002uj}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Bernreuther}}, ``{CP violation
+  and baryogenesis},'' \bibinfo{journal}{Lect. Notes Phys.}
+  \textbf{\bibinfo{volume}{591}}, \bibinfo{pages}{237} (\bibinfo{year}{2002}),
+  \eprint{hep-ph/0205279}.
+
+\bibitem[{\citenamefont{Khriplovich and Lamoreaux}(1997)}]{Khriplovich:1997ga}
+\bibinfo{author}{\bibfnamefont{I.~B.} \bibnamefont{Khriplovich}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{S.~K.}
+  \bibnamefont{Lamoreaux}}, \emph{\bibinfo{title}{{CP violation without
+  strangeness: Electric dipole moments of particles, atoms, and molecules}}}
+  (\bibinfo{publisher}{Berlin, Germany: Springer (1997) 230 p},
+  \bibinfo{year}{1997}).
+
+\bibitem[{\citenamefont{Rathmann et~al.}(2013)\citenamefont{Rathmann, Saleev,
+  and Nikolaev}}]{Rathmann:2013rqa}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Rathmann}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Saleev}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{N.~N.} \bibnamefont{Nikolaev}}, ``{The search
+  for electric dipole moments of light ions in storage rings},''
+  \bibinfo{journal}{J. Phys. Conf. Ser.} \textbf{\bibinfo{volume}{447}},
+  \bibinfo{pages}{012011} (\bibinfo{year}{2013}).
+
+\bibitem[{\citenamefont{Bsaisou et~al.}(2015)\citenamefont{Bsaisou, de~Vries,
+  Hanhart, Liebig, Mei{\ss}ner, Minossi, Nogga, and Wirzba}}]{Bsaisou:2015:1}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Bsaisou}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{de~Vries}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Hanhart}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Liebig}},
+  \bibinfo{author}{\bibfnamefont{U.-G.} \bibnamefont{Mei{\ss}ner}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Minossi}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Nogga}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Wirzba}}, ``Nuclear electric
+  dipole moments in chiral effective field theory,'' \bibinfo{journal}{Journal
+  of High Energy Physics} \textbf{\bibinfo{volume}{2015}}, \bibinfo{pages}{1}
+  (\bibinfo{year}{2015}), ISSN \bibinfo{issn}{1029-8479},
+  \urlprefix\url{http://dx.doi.org/10.1007/JHEP03(2015)104}.
+
+\bibitem[{\citenamefont{Abusaif et~al.}(2021)}]{CPEDM:2019nwp}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Abusaif}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{CPEDM}), \emph{\bibinfo{title}{{Storage Ring to
+  Search for Electric Dipole Moments of Charged Particles -- Feasibility
+  Study}}} (\bibinfo{publisher}{CERN}, \bibinfo{address}{Geneva},
+  \bibinfo{year}{2021}), \eprint{1912.07881}.
+
+\bibitem[{\citenamefont{Chang et~al.}(2018)\citenamefont{Chang, Haciomeroglu,
+  Kim, Lee, Park, and Semertzidis}}]{Chang:2017ruk}
+\bibinfo{author}{\bibfnamefont{S.~P.} \bibnamefont{Chang}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Haciomeroglu}},
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Kim}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Lee}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Park}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Y.~K.} \bibnamefont{Semertzidis}}, ``{Axion
+  dark matter search using the storage ring EDM method},''
+  \bibinfo{journal}{PoS} \textbf{\bibinfo{volume}{PSTP2017}},
+  \bibinfo{pages}{036} (\bibinfo{year}{2018}), \eprint{1710.05271}.
+
+\bibitem[{\citenamefont{Fukuyama and Silenko}(2013)}]{Fukuyama:2013ioa}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Fukuyama}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~J.} \bibnamefont{Silenko}}, ``{Derivation
+  of Generalized Thomas-Bargmann-Michel-Telegdi Equation for a Particle with
+  Electric Dipole Moment},'' \bibinfo{journal}{Int. J. Mod. Phys.}
+  \textbf{\bibinfo{volume}{A28}}, \bibinfo{pages}{1350147}
+  (\bibinfo{year}{2013}),
+  \urlprefix\url{https://www.worldscientific.com/doi/abs/10.1142/S0217751X13501479}.
+
+\bibitem[{\citenamefont{Rathmann et~al.}(2020)\citenamefont{Rathmann, Nikolaev,
+  and Slim}}]{PhysRevAccelBeams.23.024601}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Rathmann}},
+  \bibinfo{author}{\bibfnamefont{N.~N.} \bibnamefont{Nikolaev}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Slim}},
+  ``Spin dynamics investigations for the electric dipole moment experiment,''
+  \bibinfo{journal}{Phys. Rev. Accel. Beams} \textbf{\bibinfo{volume}{23}},
+  \bibinfo{pages}{024601} (\bibinfo{year}{2020}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevAccelBeams.23.024601}.
+
+\bibitem[{\citenamefont{Slim et~al.}(2016)\citenamefont{Slim, Gebel, Heberling,
+  Hinder, H\"olscher, Lehrach, Lorentz, Mey, Nass, Rathmann
+  et~al.}}]{Slim2016116}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Slim}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Gebel}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Heberling}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Hinder}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{H\"olscher}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Lehrach}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Lorentz}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Mey}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Nass}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Rathmann}},
+  \bibnamefont{et~al.}, ``Electromagnetic simulation and design of a novel
+  waveguide rf wien filter for electric dipole moment measurements of protons
+  and deuterons,'' \bibinfo{journal}{Nuclear Instruments and Methods in Physics
+  Research Section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment} \textbf{\bibinfo{volume}{828}}, \bibinfo{pages}{116 }
+  (\bibinfo{year}{2016}), ISSN \bibinfo{issn}{0168-9002},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900216303710}.
+
+\bibitem[{\citenamefont{Guidoboni et~al.}(2016)\citenamefont{Guidoboni,
+  Stephenson, Andrianov, Augustyniak, Bagdasarian, Bai, Baylac, Bernreuther,
+  Bertelli, Berz et~al.}}]{PhysRevLett.117.054801}
+\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Guidoboni}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Stephenson}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Andrianov}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Augustyniak}},
+  \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{Bagdasarian}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bai}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Baylac}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Bernreuther}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Bertelli}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Berz}}, \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{JEDI}), ``How to reach a thousand-second in-plane
+  polarization lifetime with $0.97$ gev/c deuterons in a storage ring,''
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{117}},
+  \bibinfo{pages}{054801} (\bibinfo{year}{2016}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.117.054801}.
+
+\bibitem[{\citenamefont{Eversmann et~al.}(2015)\citenamefont{Eversmann, Hejny,
+  Hinder, Kacharava, Pretz, Rathmann, Rosenthal, Trinkel, Andrianov,
+  Augustyniak et~al.}}]{PhysRevLett.115.094801}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Eversmann}},
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Hejny}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Hinder}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Kacharava}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Pretz}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Rathmann}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Rosenthal}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Trinkel}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Andrianov}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Augustyniak}},
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{JEDI}), ``New method for a
+  continuous determination of the spin tune in storage rings and implications
+  for precision experiments,'' \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{115}}, \bibinfo{pages}{094801}
+  (\bibinfo{year}{2015}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.115.094801}.
+
+\bibitem[{\citenamefont{Hempelmann et~al.}(2017)\citenamefont{Hempelmann,
+  Hejny, Pretz, Stephenson, Augustyniak, Bagdasarian, Bai, Barion, Berz,
+  Chekmenev et~al.}}]{PhysRevLett.119.014801}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Hempelmann}},
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Hejny}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Pretz}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Stephenson}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Augustyniak}},
+  \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{Bagdasarian}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bai}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Barion}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Berz}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Chekmenev}},
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{JEDI}), ``Phase locking the
+  spin precession in a storage ring,'' \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{119}}, \bibinfo{pages}{014801}
+  (\bibinfo{year}{2017}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.119.014801}.
+
+\bibitem[{\citenamefont{Slim et~al.}(2023{\natexlab{a}})}]{Slim:2023lpd}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Slim}} \bibnamefont{et~al.},
+  ``{Pilot bunch and co-magnetometry of polarized particles stored in a
+  ring},''  (\bibinfo{year}{2023}{\natexlab{a}}), \eprint{2309.06561}.
+
+\bibitem[{\citenamefont{Nikolaev et~al.}(2023)}]{Nikolaev:2023srx}
+\bibinfo{author}{\bibfnamefont{N.~N.} \bibnamefont{Nikolaev}}
+  \bibnamefont{et~al.}, ``{Spin decoherence and off-resonance behavior of
+  radiofrequency-driven spin rotations in storage rings},''
+  (\bibinfo{year}{2023}), \eprint{2309.05080}.
+
+\bibitem[{\citenamefont{Albers et~al.}(2004)}]{Albers:2004iw}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Albers}} \bibnamefont{et~al.},
+  ``{A Precision measurement of pp elastic scattering cross-sections at
+  intermediate energies},'' \bibinfo{journal}{Eur. Phys. J.}
+  \textbf{\bibinfo{volume}{A22}}, \bibinfo{pages}{125} (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{Vasserman et~al.}(1987)\citenamefont{Vasserman,
+  Vorobyov, Gluskin, Ivanov, Koop, Kezerashvili, Lysenko, Nesterenko,
+  Perevedentsev, Mikhailichenko et~al.}}]{Vasserman1987302}
+\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Vasserman}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Vorobyov}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Gluskin}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Ivanov}},
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Koop}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Kezerashvili}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Lysenko}},
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Nesterenko}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Perevedentsev}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Mikhailichenko}},
+  \bibnamefont{et~al.}, ``Comparison of the electron and positron anomalous
+  magnetic moments: Experiment 1987,'' \bibinfo{journal}{Physics Letters B}
+  \textbf{\bibinfo{volume}{198}}, \bibinfo{pages}{302 } (\bibinfo{year}{1987}),
+  ISSN \bibinfo{issn}{0370-2693},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0370269387915152}.
+
+\bibitem[{\citenamefont{Saleev et~al.}(2017)\citenamefont{Saleev, Nikolaev,
+  Rathmann, Augustyniak, Bagdasarian, Bai, Barion, Berz, Chekmenev, Ciullo
+  et~al.}}]{PhysRevAccelBeams.20.072801}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Saleev}},
+  \bibinfo{author}{\bibfnamefont{N.~N.} \bibnamefont{Nikolaev}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Rathmann}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Augustyniak}},
+  \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{Bagdasarian}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bai}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Barion}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Berz}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Chekmenev}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Ciullo}},
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{JEDI}), ``Spin tune mapping as
+  a novel tool to probe the spin dynamics in storage rings,''
+  \bibinfo{journal}{Phys. Rev. Accel. Beams} \textbf{\bibinfo{volume}{20}},
+  \bibinfo{pages}{072801} (\bibinfo{year}{2017}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevAccelBeams.20.072801}.
+
+\bibitem[{\citenamefont{Orlov et~al.}(2006)\citenamefont{Orlov, Morse, and
+  Semertzidis}}]{PhysRevLett.96.214802}
+\bibinfo{author}{\bibfnamefont{Y.~F.} \bibnamefont{Orlov}},
+  \bibinfo{author}{\bibfnamefont{W.~M.} \bibnamefont{Morse}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Y.~K.} \bibnamefont{Semertzidis}}, ``Resonance
+  method of electric-dipole-moment measurements in storage rings,''
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{96}},
+  \bibinfo{pages}{214802} (\bibinfo{year}{2006}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.96.214802}.
+
+\bibitem[{\citenamefont{Slim et~al.}(2017)\citenamefont{Slim, Rathmann, Nass,
+  Soltner, Gebel, Pretz, and Heberling}}]{Slim201752}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Slim}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Rathmann}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Nass}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Soltner}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Gebel}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Pretz}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Heberling}}, ``Polynomial
+  chaos expansion method as a tool to evaluate and quantify field homogeneities
+  of a novel waveguide \{RF\} wien filter,'' \bibinfo{journal}{Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}
+  \textbf{\bibinfo{volume}{859}}, \bibinfo{pages}{52 } (\bibinfo{year}{2017}),
+  ISSN \bibinfo{issn}{0168-9002},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900217303807}.
+
+\bibitem[{\citenamefont{Slim et~al.}(2021)\citenamefont{Slim, Nikolaev,
+  Rathmann, Wirzba, Nass, Hejny, Pretz, Soltner, Abusaif, Aggarwal
+  et~al.}}]{PhysRevAccelBeams.24.124601}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Slim}},
+  \bibinfo{author}{\bibfnamefont{N.~N.} \bibnamefont{Nikolaev}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Rathmann}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Wirzba}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Nass}},
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Hejny}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Pretz}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Soltner}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Abusaif}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Aggarwal}},
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{JEDI}), ``First detection of
+  collective oscillations of a stored deuteron beam with an amplitude close to
+  the quantum limit,'' \bibinfo{journal}{Phys. Rev. Accel. Beams}
+  \textbf{\bibinfo{volume}{24}}, \bibinfo{pages}{124601}
+  (\bibinfo{year}{2021}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevAccelBeams.24.124601}.
+
+\bibitem[{\citenamefont{Slim et~al.}(2023{\natexlab{b}})\citenamefont{Slim,
+  Nikolaev, Rathmann, and Wirzba}}]{PhysRevAccelBeams.26.014201}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Slim}},
+  \bibinfo{author}{\bibfnamefont{N.~N.} \bibnamefont{Nikolaev}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Rathmann}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Wirzba}}, ``Quantum
+  mechanical derivation of radio-frequency-driven coherent beam oscillations in
+  storage rings,'' \bibinfo{journal}{Phys. Rev. Accel. Beams}
+  \textbf{\bibinfo{volume}{26}}, \bibinfo{pages}{014201}
+  (\bibinfo{year}{2023}{\natexlab{b}}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevAccelBeams.26.014201}.
+
+\bibitem[{\citenamefont{Slim et~al.}(2020)\citenamefont{Slim, Nass, Rathmann,
+  Soltner, Tagliente, and Heberling}}]{Slim:2020ufk}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Slim}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Nass}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Rathmann}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Soltner}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Tagliente}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Heberling}}, ``{The driving
+  circuit of the waveguide RF Wien filter for the deuteron EDM precursor
+  experiment at COSY},'' \bibinfo{journal}{JINST}
+  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{P03021}
+  (\bibinfo{year}{2020}),
+  \urlprefix\url{https://iopscience.iop.org/article/10.1088/1748-0221/15/03/P03021/pdf}.
+
+\bibitem[{\citenamefont{Graham and Rajendran}(2011)}]{PhysRevD.84.055013}
+\bibinfo{author}{\bibfnamefont{P.~W.} \bibnamefont{Graham}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rajendran}}, ``Axion dark
+  matter detection with cold molecules,'' \bibinfo{journal}{Phys. Rev. D}
+  \textbf{\bibinfo{volume}{84}}, \bibinfo{pages}{055013}
+  (\bibinfo{year}{2011}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.84.055013}.
+
+\bibitem[{\citenamefont{Graham and Rajendran}(2013)}]{PhysRevD.88.035023}
+\bibinfo{author}{\bibfnamefont{P.~W.} \bibnamefont{Graham}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rajendran}}, ``New
+  observables for direct detection of axion dark matter,''
+  \bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{88}},
+  \bibinfo{pages}{035023} (\bibinfo{year}{2013}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.88.035023}.
+
+\bibitem[{\citenamefont{Karanth et~al.}(2023)\citenamefont{Karanth, Stephenson,
+  Chang, Hejny, Park, Pretz, Semertzidis, Wirzba, Wro\ifmmode~\acute{n}\else
+  \'{n}\fi{}ska, Abusaif et~al.}}]{PhysRevX.13.031004}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Karanth}},
+  \bibinfo{author}{\bibfnamefont{E.~J.} \bibnamefont{Stephenson}},
+  \bibinfo{author}{\bibfnamefont{S.~P.} \bibnamefont{Chang}},
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Hejny}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Park}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Pretz}},
+  \bibinfo{author}{\bibfnamefont{Y.~K.} \bibnamefont{Semertzidis}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Wirzba}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Wro\ifmmode~\acute{n}\else
+  \'{n}\fi{}ska}}, \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Abusaif}},
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{JEDI Collaboration}), ``First
+  search for axionlike particles in a storage ring using a polarized deuteron
+  beam,'' \bibinfo{journal}{Phys. Rev. X} \textbf{\bibinfo{volume}{13}},
+  \bibinfo{pages}{031004} (\bibinfo{year}{2023}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevX.13.031004}.
+
+\bibitem[{ari()}]{ariesWS:2021}
+\bibinfo{note}{{see, e.g., the presentations at the ARIES WP6 Workshop: Storage
+  Rings and Gravitational Waves "SRGW2021", 2 February - 11 March 2021,
+  available from \url{https://indico.cern.ch/event/982987}}}.
+
+\end{thebibliography}

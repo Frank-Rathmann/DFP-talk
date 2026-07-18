@@ -1,0 +1,104 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: JEDI-DPF2026_Rathmann_18.07.2026.aux
+A level-1 auxiliary file: slide-baryon-asymmetry.aux
+A level-1 auxiliary file: slide-electric-dipole-moments.aux
+A level-1 auxiliary file: slide-naive-scale-nucleon-EDM.aux
+A level-1 auxiliary file: slide-motivation.aux
+A level-1 auxiliary file: slide-status-EDM-search.aux
+A level-1 auxiliary file: slide-status-axion-search.aux
+A level-1 auxiliary file: slide-EDM-measurement-in-storage-ring.aux
+A level-1 auxiliary file: slide-spin-precession-MDM-EDM.aux
+A level-1 auxiliary file: slide-frozen-spin.aux
+A level-1 auxiliary file: slide-EDM-in-magnetic-ring.aux
+A level-1 auxiliary file: slide-principle-SCT-measurement.aux
+A level-1 auxiliary file: slide-detector-EDDA.aux
+A level-1 auxiliary file: slide-SCT-pictures-arrows.aux
+A level-1 auxiliary file: slide-SCT-optimization.aux
+A level-1 auxiliary file: slide-spin-tune-determination-I.aux
+A level-1 auxiliary file: slide-spin-tune-determination-II.aux
+A level-1 auxiliary file: slide-spin-tune-walk.aux
+A level-1 auxiliary file: slide-phase-locking.aux
+A level-1 auxiliary file: slide-EDM-effect-on-stable-axis.aux
+A level-1 auxiliary file: slide-model-pol-buildup-EDM-COSY.aux
+A level-1 auxiliary file: slide-design-RF-Wien-filter.aux
+A level-1 auxiliary file: slide-WF-along-beam.aux
+A level-1 auxiliary file: SLIDE-bunch-selective-spin-manipulation.aux
+A level-1 auxiliary file: SLIDE-fast-RF-switches.aux
+A level-1 auxiliary file: SLIDE-fast-RF-switches-2.aux
+A level-1 auxiliary file: SLIDE-bunch-selective-spin-manipulation-2.aux
+A level-1 auxiliary file: slide-strength-EDM-resonance.aux
+A level-1 auxiliary file: slide-pilot-bunch.aux
+A level-1 auxiliary file: slide-pxy-phase-precursor-measurement.aux
+A level-1 auxiliary file: slide-EDM-precursor-preliminary.aux
+A level-1 auxiliary file: slide-axion-like-particle-in-storage-ring.aux
+A level-1 auxiliary file: slide-principle-axion-measurement.aux
+A level-1 auxiliary file: slide-principle-axion-measurement-2.aux
+A level-1 auxiliary file: slide-bound-on-oscill-dEDM.aux
+A level-1 auxiliary file: slide-bound-ALP-EDM-coupling.aux
+A level-1 auxiliary file: slide-ALP-gluon-ALP-nucleon-coupling.aux
+A level-1 auxiliary file: slide-staged-approach.aux
+A level-1 auxiliary file: slide-PTR.aux
+A level-1 auxiliary file: slide-summary.aux
+A level-1 auxiliary file: slide-closing.aux
+A level-1 auxiliary file: slide-references.aux
+The style file: apsrev-title.bst
+A level-1 auxiliary file: slide-to-spare-slides.aux
+A level-1 auxiliary file: slide-experimental-requirements-srEDM.aux
+A level-1 auxiliary file: slide-new-C-polarimeter.aux
+A level-1 auxiliary file: slide-dC-polarimetry-II.aux
+Already encountered file slide-PTR.aux
+---line 107 of file JEDI-DPF2026_Rathmann_18.07.2026.aux
+ : \@input{slide-PTR.aux
+ :                      }
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: /Users/frankrathmann/Dokumente/Documents/LITERATUR/spintunemapping_22.04.2020.bib
+You're missing a field name---line 79 of file /Users/frankrathmann/Dokumente/Documents/LITERATUR/spintunemapping_22.04.2020.bib
+ :  isbn      = {978-3-642-24225-0},      
+ :                                        % softcover ISBN
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 28 entries,
+            3408 wiz_defined-function locations,
+            1429 strings with 26447 characters,
+and the built_in function-call counts, 26426 in all, are:
+= -- 1351
+> -- 1228
+< -- 157
++ -- 1111
+- -- 304
+* -- 3872
+:= -- 2686
+add.period$ -- 28
+call.type$ -- 28
+change.case$ -- 137
+chr.to.int$ -- 27
+cite$ -- 30
+duplicate$ -- 2276
+empty$ -- 2061
+format.name$ -- 700
+if$ -- 4908
+int.to.chr$ -- 2
+int.to.str$ -- 29
+missing$ -- 338
+newline$ -- 99
+num.names$ -- 81
+pop$ -- 421
+preamble$ -- 1
+purify$ -- 112
+quote$ -- 0
+skip$ -- 1097
+stack$ -- 0
+substring$ -- 659
+swap$ -- 1957
+text.length$ -- 147
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 164
+warning$ -- 0
+while$ -- 77
+width$ -- 0
+write$ -- 338
+(There were 2 error messages)
